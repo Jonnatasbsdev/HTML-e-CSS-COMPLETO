@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to bottom, rgba(143, 198, 212, 0.705), rgb(37, 105, 28), rgba(145, 57, 54, 0.774));
+    color:rgba(206, 198, 186, 0.87);
+    width: 80%;
+    height:90%;
+    margin: auto;
+}
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: justify;
+    height: 200px;
+    width: 550px;
+
+
+}
+
+div#primeira:hover{
+    display: none;
+
+}
+
+h1{
+    
+    font: italic bold 2em "Arial, sans-serif";
+    color: white;
+    text-align: center;
+}
+
+h2{
+    background-color: brown;
+}
+
+p{
+    text-align: justify;
+}

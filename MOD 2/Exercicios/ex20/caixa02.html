@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+       
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(132, 141, 46), #329fc0e8);
+            background-attachment: fixed;
+        }
+
+        header{
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+        
+        }
+
+        header >h1{
+            box-shadow: inset 2px 2px 9px -3px grey;   
+            border-radius: 5px;    }
+        
+        nav{
+            background-color: rgb(167, 152, 172);
+            font-weight: bold;
+            padding:5px 5px 5px 0;
+            border-radius:5px;
+            box-shadow: 3px 3px 3px 5px rgb(83, 65, 65);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(56, 54, 54);
+            margin-right: 20px;
+            font-weight: bold;
+            transition: 0.5s;
+                                     
+        }
+        nav > a:hover{
+            color: white;
+
+        }
+        nav > a:active{
+            color:red;
+            
+        }
+
+        main{
+            background-color: white;
+            margin: 10px 10px 10px 0px;
+            border-radius: 15px 0px;
+            border:3px solid rgb(116, 29, 29);
+            padding: 10px;
+        }
+
+        #modalidades>p{
+            box-shadow: inset 2px 2px 9px -3px grey;
+            width: 180px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: rgb(190, 190, 190);
+            border:4px groove rgba(221, 36, 36, 0.747);
+            border-radius: 12px;
+            padding: 10px;
+        }
+        
+        aside>p{
+            margin-right: 30px;
+            padding: 10px;
+        }
+        
+        footer{
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 0.5px;
+            border-style: dotted;
+            border-width: 5px;
+        }
+
+        
+        footer >p{
+            margin: 0px;
+        }
+
+        .carro{
+            display:inline-flex;
+        }
+        #bola1{
+            height: 100px;
+            width: 100px;
+            margin:10px auto 10px auto;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+
+        #retangulo{
+            height: 50px;
+            width: 100px;
+            background-color: white;
+            margin: 35px 0px 15px 0px;
+        }
+
+        #bola2{
+            height: 100px;
+            width: 100px;
+            margin:10px 0px 10px 0px;
+            background-color: white;
+            border-radius: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id='modalidades'>
+            <p>Esporte Saúde Lazer</p>
+        </section>
+        <section id='assuntos'>
+            <article>
+                <h2>Notícia sobre Grouping Tags</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error distinctio voluptatem quasi voluptates iusto nemo dolor, ratione ipsum tenetur et sint obcaecati quidem porro a dolorum id qui sequi nesciunt.</p>
+                <aside>
+                    <p>Artigo escrito pro sistema automático</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido por JonnatasbsDEV</p>
+
+    </footer>
+    
+    <div class='carro'>
+        <div id='bola1'>
+        </div>
+        <div id='retangulo'>
+        </div>
+        <div id='bola2'></div>
+    </div>
+</body>
+</html>
